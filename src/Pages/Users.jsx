@@ -5,7 +5,7 @@ import UserDetails from "../Components/UserDetails";
 
 const Users = () => {
   const [users, setUsers] = useState(null);
-  const url = "http://demo2211087.mockable.io/mock";
+  const url = "https://demo2211087.mockable.io/mock";
   const header = {
     method: "POST",
     headers: {
